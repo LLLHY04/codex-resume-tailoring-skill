@@ -130,7 +130,8 @@ If the Original Resume is LaTeX:
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/resume-tailoring.git
+git clone https://github.com/LLLHY04/codex-resume-tailoring-skill.git \
+  resume-tailoring
 ```
 
 Create the local Codex skills directory:
