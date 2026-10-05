@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Tailoring"
+  short_description: "Evaluate job fit and tailor resumes factually"
+  default_prompt: "Use $resume-tailoring to evaluate my resume against a target job description and tailor it without inventing facts."

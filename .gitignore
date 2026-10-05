@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python caches and isolated environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+renderer-env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js dependencies and test artifacts
+node_modules/
+playwright-report/
+test-results/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Generated resume and rendering output
+output/
+outputs/
+generated/
+test-output/
+tmp/
+
+# Logs
+*.log

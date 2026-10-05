@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="{{document_language}}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>{{candidate_name}} - {{resume_title}}</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="resume-page" aria-label="{{resume_title}}">
+      <header class="resume-header">
+        <h1 class="candidate-name">{{candidate_name}}</h1>
+        <p class="professional-title">{{professional_title}}</p>
+        <address class="contact-information">
+          {{contact_information}}
+        </address>
+      </header>
+
+      <section class="resume-section" aria-labelledby="education-heading">
+        <h2 id="education-heading" class="section-heading">
+          {{education_heading}}
+        </h2>
+        <!-- Replace the placeholder with one or more <li class="entry"> elements. -->
+        <ul class="entry-list">
+          {{education_entries}}
+        </ul>
+      </section>
+
+      <section class="resume-section" aria-labelledby="core-capabilities-heading">
+        <h2 id="core-capabilities-heading" class="section-heading">
+          {{core_capabilities_heading}}
+        </h2>
+        <div class="section-content core-capabilities-content">
+          {{core_capabilities}}
+        </div>
+      </section>
+
+      <section class="resume-section" aria-labelledby="experience-heading">
+        <h2 id="experience-heading" class="section-heading">
+          {{experience_heading}}
+        </h2>
+        <!-- Each entry may contain an .entry-header, .entry-meta, and .achievement-list. -->
+        <ul class="entry-list">
+          {{experience_entries}}
+        </ul>
+      </section>
+
+      <section class="resume-section" aria-labelledby="projects-heading">
+        <h2 id="projects-heading" class="section-heading">
+          {{projects_heading}}
+        </h2>
+        <!-- Replace the placeholder with one or more <li class="entry"> elements. -->
+        <ul class="entry-list">
+          {{project_entries}}
+        </ul>
+      </section>
+
+      <section class="resume-section" aria-labelledby="achievements-heading">
+        <h2 id="achievements-heading" class="section-heading">
+          {{achievements_heading}}
+        </h2>
+        <ul class="achievement-list">
+          {{achievement_entries}}
+        </ul>
+      </section>
+
+      <section class="resume-section" aria-labelledby="tools-languages-heading">
+        <h2 id="tools-languages-heading" class="section-heading">
+          {{tools_languages_heading}}
+        </h2>
+        <div class="section-content tools-languages-content">
+          {{tools_languages}}
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
